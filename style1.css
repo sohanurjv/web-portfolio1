@@ -3,19 +3,16 @@ body{
 }
 #highlight{
     color: rgb(190, 12, 190);
-section{
-     border: 1px red;
-     height: 5000px;
-     padding-bottom: 150px;
-     overflow: auto;
-}
+
+
 }
 .half-width{
-  width: 40%;
-  float: left;
-  margin-left: 5%;
-  padding-left: 2%;
-}
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+  }
+
 .half-width img{
     width: 100%;
 }
@@ -27,31 +24,72 @@ section{
     color: white;
     font-weight: 900;
 }
-#middle-position{
-    text-align: center;
-    font-weight: 700;
-    width: 100%;
-    height: 500%;
+#first-background{
+    background-image: url(images1/header-bg.png);
+    height: 300px;
+    padding-bottom:300px;
+    background-repeat: no-repeat;
 }
+}
+#second-background{
+    background-image: url(images1/biography-bg.png);
+    height: 300px;
+    padding-bottom:300px;
+    background-repeat: no-repeat;
+}
+#third-background{
+    background-image: url(images1/latest-work-bg.png);
+    height: 300px;
+    padding-bottom:150px;
+    background-repeat: no-repeat; 
+ }
 .photo-position{
-   width: 30%;
-   float: left;
-   padding: 0.2%;
-   margin: 2%; 
-   text-align: center;
+    width: 30%;
+    float: left;
+    padding: 0.2%;
+    margin: 1%; 
+ }
+ .photo-position img{
+     width: 100%;
+ }
+ section{
+    height: 200px;
+    padding-bottom:300px;
+    background-repeat: no-repeat; 
+ }
+ #middle-position{
+     text-align: center;
+ }
+ #last-background{
+     background-image: url(images1/footer-bg.png);
+     height: 300px;
+     padding-bottom: 200px;
+     background-repeat: no-repeat;
+     text-align: center;
+ }
+ #client{
+     height: 60px;
+ }
+ #found{
+     height: 30;
+ }
+ #lorem{
+     height: 70px;
+     text-align: center;
+ }
+#mark{
+   height: 80px;
+   border-radius: 5px;
+   padding: 1%;
+   margin: 2px 20%;
+   background-image: linear-gradient(45deg, rgb(129, 8, 103), rgb(230, 11, 194));
+   color: white;
+   font-style: italic;
 }
-.photo-position img{
-    width: 100%;
+#small{
+    font-size: 50%;
 }
-#middle{
+footer{
     text-align: center;
-
-}
-
-footer p{
-    text-align: center;
-    font-size: 15px;
-    font-style: italic;
-    color: blue;
-    font-weight: 100;
+    font-size: 50%;
 }
